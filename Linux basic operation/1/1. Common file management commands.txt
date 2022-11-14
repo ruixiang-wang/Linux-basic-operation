@@ -1,0 +1,29 @@
+(1) ctrl c: Cancel the command and wrap the line
+(2) ctrl u: Clear this command
+(3) tab：You can complete the command and file name using tab. If you can't complete the command and file name, you can quickly press tab twice to display alternative options
+(4) ls: Lists all files in the current directory, blue for folders, white for normal files, and green for executables
+ls -l : View the detailed properties of all visible files in the current directory in a long format.
+ls -h : The results are good to see.
+ls -lh: change storage from byte to mb, for people to see
+ls -a : Show all files, including hidden files (to. The beginning of the file)
+ls -A: not show . and ..
+ll == ls -la
+(5) pwd: Show the current path
+(6) cd XXX: Go to the XXX directory, cd .. Return to upper-layer directory
+cd: return to home directory.
+cd - : Returns the previous directory
+(7) cp XXX YYY: Copy the XXX file as YYY, XXX and YYY can be one path，such as ../dir_c/a.txt，indicates the upper-layer directorydir_c folder's file a.txt.
+cp a b -r :  Copy all files in a directory to the direcotory b.
+(8) mkdir XXX: Create directory XXX
+mkdir a/b/c -p : Making Multi-layer directory
+find a :  The lookup is based on the properties of the file
+(9) rm XXX: Deleting Common Files;  rm XXX -r: Deleting Folder
+rm *.txt is also okay.  rm a/* is to delete the files in this directory.
+(10) mv XXX YYY: Move the XXX file to YYY. Like the cp command, XXX and YYY can be the same path; Renaming is also done with this command
+(11) touch XXX: Create a file
+(12) cat XXX: Display the contents of file XXX
+(13) Copy the text
+    windows/Linux：Ctrl + insert，Mac：command + c
+(14) Paste text
+    windows/Linux：Shift + insert，Mac：command + v
+(15)↑ Direction key：Displays the previous command
